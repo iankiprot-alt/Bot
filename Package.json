@@ -1,1 +1,19 @@
 
+{
+  "name": "ianoh-megabot",
+  "version": "1.0.0",
+  "description": "IanMegaBot - WhatsApp bot (Baileys) ready for GitHub + Railway deployment",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "bash ./start.sh && node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.0.0",
+    "axios": "^1.4.0",
+    "ytdl-core": "^4.11.1"
+  }
+}
